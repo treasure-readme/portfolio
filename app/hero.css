@@ -1,0 +1,40 @@
+.facts-container {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .fact {
+    display: block;
+    height: 100%;
+    /* padding-left: 6px; */
+    color: #956afa;
+    animation: role-change 6s  infinite;
+  }
+  
+  @keyframes role-change {
+    10%{
+        transform: translateY(0%);
+    }
+    25%{
+        transform: translateY(-99%);
+    }
+    35%{
+        transform: translateY(-202%);
+    }
+    50%{
+        transform: translateY(-199%);
+    }
+    60%{
+        transform: translateY(-302%);
+    }
+    75%{
+        transform: translateY(-299%);
+    }
+    85%{
+        transform: translateY(-299%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+  
