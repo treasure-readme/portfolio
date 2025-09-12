@@ -21,7 +21,7 @@ export default function Hero() {
       
 {/* Left 60% */}       
 <div className="w-full lg:w-[70%] px-[10px] overflow-hidden">       
-  <h1 className='lg:text-6xl text-3xl text-left font-bold mb-6 neulis text-top-shadow break-words'>
+  <h1 className='lg:text-6xl text-3xl text-left font-bold mb-6 neulis text-top-shadow whitespace-nowrap'>
     Hello, I'm Treasure
   </h1>         
   <div className="lg:max-h-[180px] max-h-[120px] rounded-lg flex text-[#7c7c7c] font-sans font-medium text-[25px] box-content overflow-hidden">             
