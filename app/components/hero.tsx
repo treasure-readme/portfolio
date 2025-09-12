@@ -3,7 +3,8 @@ import '../hero.css';
 export default function Hero() {
     const facts =[
         
-                "I really love sharwarma",
+                // "I really love sharwarma",
+                "I recently won a hackathon",
                 "Jollof rice is my love language",
                 "I make high-impact products",
                 "I might have a slight sugar-addiction",

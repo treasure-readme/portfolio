@@ -104,12 +104,12 @@ export default function Fun() {
   ];
 
   return (
-    <div className="flex flex-col md:flex-col lg:flex-row w-full max-w-6xl min-h-screen mt-6 mx-auto px-10 py-3">
+    <div className="flex flex-col md:flex-col lg:flex-row w-full max-w-6xl min-h-screen mt mx-auto px-10 py-3">
       
       {/* Left 30% */}
       <div className="w-full lg:w-[35%] p-8 px-10">
-        <h1 className="font-bold text-2xl mb-3">Fun</h1>
-        <p className="mt-6">
+        <h1 className="font-bold text-7xl mb neulis">Fun</h1>
+        <p className="mt">
           Solitude, comfort, and curiosity shape a lot of how I spend my time.
           When I'm not building or thinking through an idea, I enjoy slowing
           down which usually involves eating something I love, scrolling
@@ -123,15 +123,15 @@ export default function Fun() {
       <div className="w-full lg:w-[65%] flex flex-col items-start justify-start p-8" style={{ lineHeight: "1.2" }}>
         
         {/* Tabs */}
-        <div className="flex space-x-6 mb-2">
+        <div className="flex space-x-6 mb-2 lg:mt-4">
           {tabs.map((tab) => (
             <button
               key={tab.id}
               onClick={() => setActiveTab(tab.id)}
               className={`pb-1 border-b-2 transition-all duration-200 ${
                 activeTab === tab.id
-                  ? "text-blue-600 border-blue-500"
-                  : "text-gray-700 border-transparent hover:text-blue-600 hover:border-blue-300"
+                  ? "text-gray-600 border-gray-600"
+                  : "text-gray-700 border-transparent hover:text-gray-600 "
               }`}
             >
               {tab.label}
