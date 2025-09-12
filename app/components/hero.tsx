@@ -19,33 +19,33 @@ export default function Hero() {
   return (
     <div className="flex flex-col md:flex-col lg:flex-row w-full max-w-6xl min-h-screen items-left  mt-6  mx-auto px-10  py-3">
       
-      {/* Left 60% */}
-      <div className="w-full lg:w-[70%] px-[10px]">
-      <h1 className='lg:text-6xl text-4xl text-left  font-bold mb-6 whitespace-nowrap neulis text-top-shadow'>Hello, I'm Treasure</h1>
-        <div className="lg:max-h-[180px] max-h-[150px]  rounded-lg flex text-[#7c7c7c] font-sans font-medium text-[25px] box-content ">  
-          <div className="facts-container relative overflow-hidden ">
-          {facts.map((fact,index)=>(
-                    <span key={index} className="fact block h-full text-[#956afa] lg:text-7xl text-5xl font-black  ">{fact}</span>
-
-                ))
-                }
-            {/* <span className="fact block h-full text-[#956afa] lg:text-7xl text-5xl font-bold">I love jellof rice</span>
-            <span className="fact block h-full text-[#956afa] lg:text-7xl text-5xl font-bold">I Like to build high impact solutions</span>
-            <span className="fact block h-full text-[#956afa] lg:text-7xl text-5xl font-bold">I am extremely Type B</span>
-            <span className="fact block h-full text-[#956afa] lg:text-7xl text-5xl font-bold">I love jellof rice</span>
-            <span className="fact block h-full text-[#956afa] lg:text-7xl text-5xl font-bold">I love jellof rice</span> */}
-          </div>
-        </div>
-        <div className="flex justify-between px-[10px] lg:mt-15 mt-5">
-            <div>
-                <h2 className='font-semibold text-xl'>Currently at:</h2>
-                <p className='text-xl text-gray-600 mt-1'>Lincoln University</p>
-            </div>
-            {/* <div>
-            <h2 className='font-semibold text-xl'>Currently at:</h2>
-            </div> */}
-      </div>
-      </div>
+{/* Left 60% */}       
+<div className="w-full lg:w-[70%] px-[10px] overflow-hidden">       
+  <h1 className='lg:text-6xl text-3xl text-left font-bold mb-6 neulis text-top-shadow break-words'>
+    Hello, I'm Treasure
+  </h1>         
+  <div className="lg:max-h-[180px] max-h-[120px] rounded-lg flex text-[#7c7c7c] font-sans font-medium text-[25px] box-content overflow-hidden">             
+    <div className="facts-container relative overflow-hidden w-full">           
+      {facts.map((fact, index) => (                     
+        <span 
+          key={index} 
+          className="fact block h-full text-[#956afa] lg:text-7xl text-4xl font-black break-words leading-tight"
+        >
+          {fact}
+        </span>                  
+      ))}             
+    </div>         
+  </div>         
+  <div className="flex justify-between px-[10px] lg:mt-15 mt-5 overflow-hidden">             
+    <div className="min-w-0 flex-1">                 
+      <h2 className='font-semibold text-xl break-words'>Currently at:</h2>                 
+      <p className='text-xl text-gray-600 mt-1 break-words'>Lincoln University</p>             
+    </div>             
+    {/* <div>             
+    <h2 className='font-semibold text-xl'>Currently at:</h2>             
+    </div> */}       
+  </div>       
+</div>
 
 
       {/* Divider */}
