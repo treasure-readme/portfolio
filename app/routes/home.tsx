@@ -59,7 +59,7 @@ useEffect(() => {
   return (
     <>
       <Hero />
-      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:px-[60px] px-[10px] lg:px-10 py-3">
+      <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:px-[60px]  px-[10px]  py-3">
       {/* <Project
     media="https://www.w3schools.com/html/mov_bbb.mp4"
     isVideo={true}
