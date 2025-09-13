@@ -17,10 +17,10 @@ export default function Hero() {
            
             ];
   return (
-    <div className="flex flex-col md:flex-col lg:flex-row w-full max-w-6xl min-h-screen items-left  mt-6  mx-auto px-10  py-3">
+    <div className="flex flex-col md:flex-col lg:flex-row w-full max-w-6xl min-h-screen items-left  mt-6   mx-auto  py-3">
       
 {/* Left 60% */}       
-<div className="w-full lg:w-[70%] px-[10px] overflow-hidden">       
+<div className="w-full lg:w-[80%] px-[10px] overflow-hidden">       
   <h1 className='lg:text-6xl text-3xl text-left font-bold mb-6 neulis text-top-shadow whitespace-nowrap'>
     Hello, I'm Treasure
   </h1>         
@@ -53,16 +53,19 @@ export default function Hero() {
       <div className="block lg:hidden h-px w-full bg-gray-300 my-6" /> {/* horizontal line */}
 
       {/* Right 40% */}
-      <div className="w-full lg:w-[30%] flex flex-col items-start justify-start px-5 " style={{lineHeight:"1.2"}}>
+      <div className="w-full lg:w-[25%] flex flex-col items-start justify-start  " style={{lineHeight:"1.2"}}>
         <img 
           src="/me.jpeg"
           alt="Profile" 
           className="w-35 h-35 object-cover grayscale rounded-full mb-2" 
         />
         <h1 className=" text-xl font-semibold mb-2">Nice to meet cha'</h1>
-        <p className="text-gray-600 text-xl max-w-md">
+        <div className="">
+                    <p className="text-gray-600 text-xl ">
           Hey there! I'm someone who builds fun, high-impact projects and appreciates good food like jellof rice 🍚 Lorem ipsum, dolor sit amet consectetur adipisicing.
         </p>
+        </div>
+
         <div className="flex justify-between px-[10px] mt-6 gap-2">
           
                 <span className='font-semibold text-xl'><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"/></svg></span>
