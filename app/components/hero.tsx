@@ -24,7 +24,7 @@ export default function Hero() {
   <h1 className='lg:text-6xl text-2xl text-left font-black mb-6 neulis text-top-shadow whitespace-nowrap'>
     Hello, I'm Treasure
   </h1>         
-  <div className="lg:max-h-[180px] max-h-[120px] rounded-lg flex text-[#7c7c7c] font-sans font-medium text-[25px] box-content overflow-hidden px-[10px] ">             
+  <div className="lg:max-h-[180px] max-h-[120px] rounded-lg flex text-[#7c7c7c] font-sans font-medium text-[25px] box-content overflow-hidden ">             
     <div className="facts-container relative overflow-hidden w-full">           
       {facts.map((fact, index) => (                     
         <span 
@@ -53,7 +53,7 @@ export default function Hero() {
       <div className="block lg:hidden h-px w-full bg-gray-300 my-6" /> {/* horizontal line */}
 
       {/* Right 40% */}
-      <div className="w-full lg:w-[25%] flex flex-col items-start justify-start  " style={{lineHeight:"1.2"}}>
+      <div className="w-full lg:w-[25%] flex flex-col items-start justify-start px-[10px]  " style={{lineHeight:"1.2"}}>
         <img 
           src="/me.jpeg"
           alt="Profile" 
