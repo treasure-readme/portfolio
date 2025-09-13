@@ -21,7 +21,7 @@ export default function Hero() {
       
 {/* Left 60% */}       
 <div className="w-full lg:w-[80%] px-[10px] overflow-hidden">       
-  <h1 className='lg:text-6xl text-2xl text-left font-bold mb-6 neulis text-top-shadow whitespace-nowrap'>
+  <h1 className='lg:text-6xl text-2xl text-left font-black mb-6 neulis text-top-shadow whitespace-nowrap'>
     Hello, I'm Treasure
   </h1>         
   <div className="lg:max-h-[180px] max-h-[120px] rounded-lg flex text-[#7c7c7c] font-sans font-medium text-[25px] box-content overflow-hidden">             
@@ -29,7 +29,7 @@ export default function Hero() {
       {facts.map((fact, index) => (                     
         <span 
           key={index} 
-          className="fact block h-full text-[#956afa] lg:text-7xl text-5xl font-black break-words leading-tight"
+          className="fact block h-full text-[#956afa] lg:text-7xl text-5xl font-medium break-words leading-tight"
         >
           {fact}
         </span>                  
