@@ -29,7 +29,7 @@ export default function Hero() {
       {facts.map((fact, index) => (                     
         <span 
           key={index} 
-          className="fact block h-full text-[#956afa] lg:text-7xl text-5xl font-black break-words leading-tight"
+          className="fact block h-full text-[#956afa] lg:text-7xl text-4xl font-black break-words leading-tight"
         >
           {fact}
         </span>                  
